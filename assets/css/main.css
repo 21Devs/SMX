@@ -1,11 +1,30 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-
+.active{
+    background: white !important;
+    color:#6C188F !important;
+}
+div[role="tablist"] a{
+    padding: .5em 3.72em;
+    font-size:20px;
+}
 p{
     font-size: 20px;
-    /* font-weight: 300; */
     line-height: 35px;
+}
+.small+form input{
+    border:none;
+    border-radius: 0;
+}
+.small+form .form-group{
+    border:none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+.gray.float-right{
+    margin-top:-1.5em;
+    margin-right:1em;
 }
 /* Color Scheme */
 

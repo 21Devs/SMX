@@ -58,18 +58,68 @@
          </div>
          <div class="col-5 d-none d-lg-block">
 
-            <div id="tabs">
-                <ul class="navbar-nav">
-                  <li><a href="#tabs-1">REGISTER</a></li>
-                  <li><a href="#tabs-2">LOGIN</a></li>
-                </ul>
-                <div id="tabs-1">
-                  <p class="text-white">Proin elit arcu, rutrum commodo,</p>
+            <nav>
+                <div class="nav" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active primarybgcolor text-white" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">REGISTER</a>
+                  <a class="nav-item nav-link  primarybgcolor text-white" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">LOGIN</a>
                 </div>
-                <div id="tabs-2">
-                  <p class="text-white">Morbi tincidunt, dui sit amet facilisis feugiat, </p>
+            </nav>
+
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active text-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <p class="small gray py-2">Lets get to know you</p>
+
+                  <form class="mx-5">
+                      <div class="form-group py-1">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Legal Name">
+                      </div>
+                      <div class="form-group py-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        <i class="fa fa-envelope-open-o gray float-right" aria-hidden="true"></i>
+                      </div>
+                      <div class="form-group py-1">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <i class="fa fa-eye-slash gray float-right" aria-hidden="true"></i>
+
+                      </div>
+                      <div class="form-group py-1">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                        <i class="fa fa-eye-slash gray float-right" aria-hidden="true"></i>
+
+                      </div>
+                      
+                        <button type="submit" class="btn form-control my-2 mb-4 primarybgcolor text-white">Sign Up</button>
+                    </form>
+                  <h5 class="small gray mx-5 pb-5">By clicking “Sign up for GitHub”, you agree to our terms of service and 
+                      privacy statement..</h5>
                 </div>
-                
+                <div class="tab-pane fade text-center" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  <p class="small gray py-2">Lets get to know you</p>
+
+                    <form class="mx-5">
+                        <div class="form-group py-1">
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Legal Name">
+                        </div>
+                        <div class="form-group py-1">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                          <i class="fa fa-envelope-open-o gray float-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-group py-1">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          <i class="fa fa-eye-slash gray float-right" aria-hidden="true"></i>
+  
+                        </div>
+                        <div class="form-group py-1">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                          <i class="fa fa-eye-slash gray float-right" aria-hidden="true"></i>
+  
+                        </div>
+                        
+                        <button type="submit" class="btn form-control my-2 mb-4 primarybgcolor text-white">Sign Up</button>
+                      </form>
+                    <h5 class="small gray mx-5 pb-5">By clicking “Sign up for GitHub”, you agree to our terms of service and 
+                        privacy statement..</h5>
+                </div>
               </div>
 
          </div>
