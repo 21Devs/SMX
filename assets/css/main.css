@@ -145,4 +145,7 @@ footer hr{
         margin-top:5em;
         position: relative;
     }
+    .border-right{
+        border:none !important;
+    }
   }
