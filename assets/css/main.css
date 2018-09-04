@@ -93,3 +93,23 @@ br+p{
     font-weight: bold;
     font-size: 21px;
 }
+footer{
+    background:#F8F8F8;
+}
+footer ul{
+    font-size:21px;
+    padding-left:0;
+}
+footer li{
+    list-style: none;
+    display: inline;
+}
+.fa.fa-circle{
+    font-size: 15px;
+    color:#C4C4C4;
+}
+
+a i.fa{
+    font-size: 35px;
+    color: #454545;
+}
