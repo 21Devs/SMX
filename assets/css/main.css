@@ -1,6 +1,7 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
 p{
     font-size: 20px;
     /* font-weight: 300; */
@@ -77,6 +78,9 @@ h3{
 #newsletter{
     overflow-x: hidden;
 }
+#inbox{
+    height:0;
+}
 #inbox svg{
     margin-top:-26em;
 }
@@ -102,7 +106,6 @@ footer ul{
 }
 footer li{
     list-style: none;
-    display: inline;
 }
 .fa.fa-circle{
     font-size: 15px;
@@ -113,3 +116,14 @@ a i.fa{
     font-size: 35px;
     color: #454545;
 }
+footer hr{
+    margin:0;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 719px) {
+    #half{
+        margin-top:5em;
+        position: relative;
+    }
+  }
