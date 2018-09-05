@@ -210,3 +210,29 @@ footer hr{
     border-radius: 0;
 }
 
+ /* Login */
+ header.cmheader{
+    background:none;
+    background-position: center;
+    background-size: cover;
+    height:50em;
+}
+.lgheaderoverlay{
+    background-color:#260933d2;
+    height:56em;
+ }
+ 
+ .login div[role="tablist"] a{
+    padding: .5em 4.71em;
+    font-size:20px;
+}
+.login input, .reset input{
+    border:none;
+    border-radius: 0;
+}
+.login .form-group, .reset .form-group{
+    border:none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
