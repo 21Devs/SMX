@@ -158,6 +158,11 @@ footer hr{
     .abheaderoverlay h3~p{
         font-size:17px !important;
     }
+    .login div[role="tablist"] a{
+        padding: .5em 1.38em !important;
+        font-size:20px;
+    }
+    
   }
 
   /* ABOUT PAGE */
@@ -178,3 +183,30 @@ footer hr{
      font-size:24px;
      font-weight: 300;
  }
+
+ /* Login */
+ header.lgheader{
+    background: url("../images/bgcover.png");
+    background-position: center;
+    background-size: cover;
+    height:56em;
+}
+.lgheaderoverlay{
+    background-color:#260933d2;
+    height:56em;
+ }
+ 
+ .login div[role="tablist"] a{
+    padding: .5em 4.71em;
+    font-size:20px;
+}
+.login input, .reset input{
+    border:none;
+    border-radius: 0;
+}
+.login .form-group, .reset .form-group{
+    border:none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
