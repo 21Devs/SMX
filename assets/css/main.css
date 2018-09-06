@@ -197,7 +197,7 @@ footer hr{
  }
  
  .login div[role="tablist"] a{
-    padding: .5em 4.71em;
+    padding: .5em .71em;
     font-size:20px;
 }
 .login input, .reset input{
