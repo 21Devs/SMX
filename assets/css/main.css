@@ -162,6 +162,10 @@ footer hr{
         padding: .5em 1.38em !important;
         font-size:20px;
     }
+
+    form.contact>.row{
+        height: 21em !important;
+    }
     
   }
 
@@ -200,14 +204,16 @@ footer hr{
     padding: .5em .71em;
     font-size:20px;
 }
-.login input, .reset input{
+.login input, .reset input, .contact input{
     border:none;
     border-radius: 0;
+    outline: none !important;
 }
-.login .form-group, .reset .form-group{
+.login .form-group, .reset .form-group, .contact .form-group{
     border:none;
     border-bottom: 1px solid #000000;
     border-radius: 0;
+    outline: none !important;
 }
 
  /* Login */
@@ -234,5 +240,10 @@ footer hr{
     border:none;
     border-bottom: 1px solid #000000;
     border-radius: 0;
+}
+
+/* contact */
+form.contact>.row{
+    height: 30em;
 }
 
