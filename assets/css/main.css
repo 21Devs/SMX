@@ -49,6 +49,15 @@ p{
 .gray{
     color:#C4C4C4;
 }
+.orange{
+    color:#FFA43A !important;
+}
+.green{
+    color:#2EB000 !important;
+}
+.graybg2{
+    background-color:rgb(235, 231, 231);
+}
 .graybg{
     background-color:#C4C4C4;
 }
@@ -210,13 +219,11 @@ footer hr{
 .login input, .reset input, .contact input{
     border:none;
     border-radius: 0;
-    outline: none !important;
 }
 .login .form-group, .reset .form-group, .contact .form-group{
     border:none;
     border-bottom: 1px solid #000000;
     border-radius: 0;
-    outline: none !important;
 }
 
  /* Login */
@@ -250,3 +257,6 @@ form.contact>.row{
     height: 30em;
 }
 
+h3.o{
+    margin-left:0;
+}
